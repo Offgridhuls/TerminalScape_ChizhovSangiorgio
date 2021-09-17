@@ -9,6 +9,13 @@ public class Testing : MonoBehaviour
     [SerializeField]
     Text StatDisplay;
 
+    private string saveFileName;
+
+    public void SetFileName(string name)
+    {
+        saveFileName = name;
+    }
+
     private void Start()
     {
         //Initializes the lists inside the static class
@@ -63,9 +70,9 @@ public class Testing : MonoBehaviour
         }
     }
 
-    public void WritePlayerData(string fname)
+    public void WritePlayerData()
     {
-        StreamWriter sw = new StreamWriter(Application.dataPath + Path.DirectorySeparatorChar + $"{fname}" + ".txt");
+        StreamWriter sw = new StreamWriter(Application.dataPath + Path.DirectorySeparatorChar + $"{saveFileName}.txt");
         for (int i = 0; i < (int)PlayerStatType.STATCOUNT; i++)
         {
             int modifierCount = PlayerStats._modifiers[i].Count;
@@ -82,8 +89,31 @@ public class Testing : MonoBehaviour
         sw.Close();
     }
 
-    public void ReadPlayerData(string fname)
+    public void ReadPlayerData()
     {
-        //TODO
+        try
+        {
+            using (StreamReader sr = new StreamReader(Application.dataPath + Path.DirectorySeparatorChar + $"{saveFileName}.txt"))
+            {
+                FlushPlayerData();
+                string line;
+                int currentModifiedStat = 0;
+                while ((line = sr.ReadLine()) != null)
+                {
+                    string[] csv = line.Split(',');
+                    PlayerStats._stats[currentModifiedStat] = int.Parse(csv[0]);
+                    for (int i = 0; i < int.Parse(csv[1]); i++)
+                    {
+                        PlayerStats._modifiers[currentModifiedStat].Add(int.Parse(csv[2 + i]));
+                    }
+                    currentModifiedStat++;
+                }
+                sr.Close();
+            }
+        }
+        catch (System.Exception e)
+        {
+            Debug.Log(e);
+        }
     }
 }
