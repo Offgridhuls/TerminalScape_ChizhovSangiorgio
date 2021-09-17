@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
+using UnityEngine.SceneManagement;
 
 public class Testing : MonoBehaviour
 {
@@ -37,23 +38,28 @@ public class Testing : MonoBehaviour
                 PlayerStats._modifiers[i].Add(Random.Range(-10, 10));
             }
         }
+        PlayerStats._loaded = true;
     }
 
     public void DisplayUserData()
     {
         string output = "";
-        for (int i = 0; i < (int)PlayerStatType.STATCOUNT; i++)
+        if (PlayerStats._loaded)
         {
-            output += ((PlayerStatType)i).ToString() + $": {PlayerStats._stats[i]}";
-            int modifierCount = PlayerStats._modifiers[i].Count;
-            if (modifierCount > 0)
+            for (int i = 0; i < (int)PlayerStatType.STATCOUNT; i++)
             {
-                foreach (int mod in PlayerStats._modifiers[i])
+                output += ((PlayerStatType)i).ToString() + $": {PlayerStats._stats[i]}";
+                int modifierCount = PlayerStats._modifiers[i].Count;
+                if (modifierCount > 0)
                 {
-                    output += $" + {mod}";
+                    foreach (int mod in PlayerStats._modifiers[i])
+                    {
+                        output += $" + {mod}";
+                    }
                 }
+                output += "\n";
             }
-            output += "\n";
+            output += $"Saved as: {PlayerStats._fileName}";
         }
         StatDisplay.text = output;
     }
@@ -68,6 +74,8 @@ public class Testing : MonoBehaviour
                 PlayerStats._modifiers[i].Clear();
             }
         }
+        PlayerStats._loaded = false;
+        PlayerStats._fileName = "";
     }
 
     public void WritePlayerData()
@@ -87,6 +95,8 @@ public class Testing : MonoBehaviour
             sw.WriteLine(line);
         }
         sw.Close();
+        PlayerStats._loaded = true;
+        PlayerStats._fileName = saveFileName;
     }
 
     public void ReadPlayerData()
@@ -109,11 +119,18 @@ public class Testing : MonoBehaviour
                     currentModifiedStat++;
                 }
                 sr.Close();
+                PlayerStats._loaded = true;
+                PlayerStats._fileName = saveFileName;
             }
         }
         catch (System.Exception e)
         {
             Debug.Log(e);
         }
+    }
+
+    public void LoadCreationScene()
+    {
+        SceneManager.LoadScene("CreationScene");
     }
 }

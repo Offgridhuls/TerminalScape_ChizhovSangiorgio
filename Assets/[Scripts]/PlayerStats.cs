@@ -14,6 +14,8 @@ public enum PlayerStatType
 }
 public static class PlayerStats
 {
+    public static string _fileName = "";
+    public static bool _loaded = false;
     public static int[] _stats = new int[(int)PlayerStatType.STATCOUNT];
     public static List<int>[] _modifiers = new List<int>[(int)PlayerStatType.STATCOUNT];
 }
