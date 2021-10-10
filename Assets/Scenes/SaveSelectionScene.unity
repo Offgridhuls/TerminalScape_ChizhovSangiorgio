@@ -123,6 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
 --- !u!1 &115292711
 GameObject:
   m_ObjectHideFlags: 0
@@ -419,6 +420,9 @@ CanvasRenderer:
   m_GameObject: {fileID: 201961922}
   m_CullTransparentMesh: 1
 --- !u!1 &316647052
+=======
+--- !u!1 &279752139
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -443,20 +447,36 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_GameObject: {fileID: 316647052}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+=======
+  m_GameObject: {fileID: 279752139}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   - {fileID: 115292712}
   - {fileID: 1984799460}
   m_Father: {fileID: 2071876781}
+=======
+  - {fileID: 833080799}
+  - {fileID: 1010385294}
+  m_Father: {fileID: 1655305131}
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_AnchoredPosition: {x: -2, y: -13}
   m_SizeDelta: {x: 253.6998, y: 30}
+=======
+  m_AnchoredPosition: {x: -145.9, y: 153.49866}
+  m_SizeDelta: {x: 471.01, y: 76.0068}
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &316647054
 MonoBehaviour:
@@ -689,6 +709,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   - {fileID: 1096098889}
   - {fileID: 1605274043}
   m_Father: {fileID: 1918320045}
@@ -698,6 +719,16 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -773, y: 21.284851}
   m_SizeDelta: {x: 409.6196, y: 82.9736}
+=======
+  - {fileID: 2122571144}
+  m_Father: {fileID: 1655305131}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -145.9, y: 0}
+  m_SizeDelta: {x: 471.0063, y: 69.193}
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &835621211
 MonoBehaviour:
@@ -813,6 +844,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   - component: {fileID: 846913883}
   - component: {fileID: 846913886}
   - component: {fileID: 846913885}
@@ -820,6 +852,15 @@ GameObject:
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
+=======
+  - component: {fileID: 519420032}
+  - component: {fileID: 519420031}
+  - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -852,6 +893,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 846913882}
   m_Enabled: 1
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -914,6 +956,42 @@ MonoBehaviour:
         m_CallState: 2
 --- !u!114 &846913885
 MonoBehaviour:
+=======
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+--- !u!20 &519420031
+Camera:
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -948,9 +1026,21 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_GameObject: {fileID: 846913882}
   m_CullTransparentMesh: 1
 --- !u!1 &869203735
+=======
+  m_GameObject: {fileID: 519420028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &527383651
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -958,22 +1048,36 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   - component: {fileID: 869203736}
   - component: {fileID: 869203738}
   - component: {fileID: 869203737}
   m_Layer: 5
   m_Name: Text
+=======
+  - component: {fileID: 527383652}
+  - component: {fileID: 527383655}
+  - component: {fileID: 527383654}
+  - component: {fileID: 527383653}
+  m_Layer: 5
+  m_Name: EditCharacterButton
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
 --- !u!224 &869203736
+=======
+--- !u!224 &527383652
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_GameObject: {fileID: 869203735}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1048,11 +1152,29 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!114 &1039313578
+=======
+  m_GameObject: {fileID: 527383651}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1407771940}
+  m_Father: {fileID: 1655305131}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 770, y: -335}
+  m_SizeDelta: {x: 471.0063, y: 69.193}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &527383653
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_GameObject: {fileID: 1039313577}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1146,26 +1268,91 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1089558609
+=======
+  m_GameObject: {fileID: 527383651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 527383654}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1060457801}
+        m_TargetAssemblyTypeName: Testing, Assembly-CSharp
+        m_MethodName: LoadCreationScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &527383654
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_GameObject: {fileID: 1089558607}
+=======
+  m_GameObject: {fileID: 527383651}
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+=======
+  m_Color: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 1}
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+=======
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1175,6 +1362,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
 --- !u!222 &1089558610
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1255,14 +1443,23 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: Read User Data
 --- !u!222 &1096098891
+=======
+--- !u!222 &527383655
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_GameObject: {fileID: 1096098888}
   m_CullTransparentMesh: 1
 --- !u!1 &1111315580
+=======
+  m_GameObject: {fileID: 527383651}
+  m_CullTransparentMesh: 1
+--- !u!1 &754043394
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1270,16 +1467,25 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   - component: {fileID: 1111315581}
   - component: {fileID: 1111315583}
   - component: {fileID: 1111315582}
   m_Layer: 5
   m_Name: Placeholder
+=======
+  - component: {fileID: 754043397}
+  - component: {fileID: 754043396}
+  - component: {fileID: 754043395}
+  m_Layer: 5
+  m_Name: PlayerInfo
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
 --- !u!224 &1111315581
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1437,19 +1643,203 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1517116611
+=======
+--- !u!114 &754043395
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_GameObject: {fileID: 1517116608}
+=======
+  m_GameObject: {fileID: 754043394}
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+=======
+  m_Color: {r: 0.16509432, g: 1, b: 0.18820384, a: 1}
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1517116612
+=======
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &754043396
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
+  m_GameObject: {fileID: 1517116608}
+=======
+  m_GameObject: {fileID: 754043394}
+  m_CullTransparentMesh: 1
+--- !u!224 &754043397
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754043394}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1655305131}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -145.9, y: 357}
+  m_SizeDelta: {x: 785.7708, y: 359.185}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &791880377
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 791880378}
+  - component: {fileID: 791880381}
+  - component: {fileID: 791880380}
+  - component: {fileID: 791880379}
+  m_Layer: 5
+  m_Name: CombatButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &791880378
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791880377}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1149310087}
+  m_Father: {fileID: 1655305131}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 770, y: -458}
+  m_SizeDelta: {x: 471.0063, y: 69.193}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &791880379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791880377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 791880380}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1060457801}
+        m_TargetAssemblyTypeName: Testing, Assembly-CSharp
+        m_MethodName: LoadCombatScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &791880380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791880377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1466,13 +1856,14 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!222 &1517116612
+--- !u!222 &791880381
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1517116608}
+  m_GameObject: {fileID: 791880377}
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_CullTransparentMesh: 1
 --- !u!1 &1605274042
 GameObject:
@@ -1511,8 +1902,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_AnchoredPosition: {x: -1.9999973, y: -12.999973}
   m_SizeDelta: {x: 253.6998, y: 30}
+=======
+  m_AnchoredPosition: {x: -0.00093842, y: -0.000086308}
+  m_SizeDelta: {x: 471.01, y: 35.009}
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1605274044
 MonoBehaviour:
@@ -1614,6 +2010,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -1625,6 +2022,23 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1605274046
+=======
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 12
+    m_FontStyle: 2
+    m_BestFit: 1
+    m_MinSize: 0
+    m_MaxSize: 167
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Load file with name...
+--- !u!222 &833080801
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1664,10 +2078,17 @@ RectTransform:
   m_Father: {fileID: 846913883}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
+=======
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.0020599, y: -0.00012529}
+  m_SizeDelta: {x: 471.01, y: 35.009}
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1622927558
 MonoBehaviour:
@@ -1693,7 +2114,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 22
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
@@ -1719,6 +2140,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   - component: {fileID: 1717426959}
   - component: {fileID: 1717426958}
   - component: {fileID: 1717426957}
@@ -1727,12 +2149,38 @@ GameObject:
   - component: {fileID: 1717426960}
   m_Layer: 0
   m_Name: Player
+=======
+  - component: {fileID: 1060457805}
+  - component: {fileID: 1060457804}
+  - component: {fileID: 1060457803}
+  - component: {fileID: 1060457802}
+  - component: {fileID: 1060457801}
+  m_Layer: 5
+  m_Name: TestingCanvas
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
 --- !u!114 &1717426955
+=======
+--- !u!114 &1060457801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060457800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d87ef6b994a84434e8787c85c343bf49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StatDisplay: {fileID: 754043395}
+--- !u!114 &1060457802
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1753,6 +2201,7 @@ CapsuleCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1717426954}
   m_Enabled: 1
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -1784,6 +2233,25 @@ Rigidbody2D:
   m_Constraints: 0
 --- !u!212 &1717426958
 SpriteRenderer:
+=======
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 2560, y: 1440}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0.5
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1060457804
+Canvas:
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1843,8 +2311,14 @@ Transform:
   m_GameObject: {fileID: 1717426954}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
+=======
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1655305131}
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1854,6 +2328,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_GameObject: {fileID: 1717426954}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1861,6 +2336,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1864413340
+=======
+  m_GameObject: {fileID: 1081185838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1081185841
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081185838}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1149310086
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1868,9 +2369,15 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   - component: {fileID: 1864413341}
   - component: {fileID: 1864413343}
   - component: {fileID: 1864413342}
+=======
+  - component: {fileID: 1149310087}
+  - component: {fileID: 1149310089}
+  - component: {fileID: 1149310088}
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -1878,39 +2385,66 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
 --- !u!224 &1864413341
+=======
+--- !u!224 &1149310087
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_GameObject: {fileID: 1864413340}
+=======
+  m_GameObject: {fileID: 1149310086}
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_Father: {fileID: 2071876781}
+=======
+  m_Father: {fileID: 791880378}
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_AnchoredPosition: {x: 0, y: 18.839}
   m_SizeDelta: {x: 0, y: -37.6782}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1864413342
+=======
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -3.2444, y: -5.8435}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1149310088
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_GameObject: {fileID: 1864413340}
+=======
+  m_GameObject: {fileID: 1149310086}
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+=======
+  m_Color: {r: 0.17723632, g: 1, b: 0, a: 1}
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1921,8 +2455,13 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 22
     m_FontStyle: 0
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
     m_BestFit: 0
     m_MinSize: 10
+=======
+    m_BestFit: 1
+    m_MinSize: 1
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1930,16 +2469,27 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_Text: Write User Data
 --- !u!222 &1864413343
+=======
+  m_Text: Combat
+--- !u!222 &1149310089
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_GameObject: {fileID: 1864413340}
   m_CullTransparentMesh: 1
 --- !u!1 &1918320041
+=======
+  m_GameObject: {fileID: 1149310086}
+  m_CullTransparentMesh: 1
+--- !u!1 &1204180134
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1947,11 +2497,17 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   - component: {fileID: 1918320045}
   - component: {fileID: 1918320044}
   - component: {fileID: 1918320043}
   - component: {fileID: 1918320042}
   - component: {fileID: 1918320046}
+=======
+  - component: {fileID: 1204180135}
+  - component: {fileID: 1204180137}
+  - component: {fileID: 1204180136}
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_Layer: 5
   m_Name: ScreenCanvas
   m_TagString: Untagged
@@ -1959,18 +2515,46 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
 --- !u!114 &1918320042
+=======
+--- !u!224 &1204180135
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204180134}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1994529615}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.000030517578, y: 0.000022888184}
+  m_SizeDelta: {x: 0.000061035, y: 0.0001}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1204180136
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_GameObject: {fileID: 1918320041}
+=======
+  m_GameObject: {fileID: 1204180134}
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
@@ -1978,10 +2562,37 @@ MonoBehaviour:
     m_Bits: 4294967295
 --- !u!114 &1918320043
 MonoBehaviour:
+=======
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.00126791, g: 1, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 12
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Create new character
+--- !u!222 &1204180137
+CanvasRenderer:
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_GameObject: {fileID: 1918320041}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2001,10 +2612,17 @@ MonoBehaviour:
   m_PresetInfoIsWorld: 0
 --- !u!223 &1918320044
 Canvas:
+=======
+  m_GameObject: {fileID: 1204180134}
+  m_CullTransparentMesh: 1
+--- !u!1 &1407771939
+GameObject:
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_GameObject: {fileID: 1918320041}
   m_Enabled: 1
   serializedVersion: 3
@@ -2021,11 +2639,27 @@ Canvas:
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &1918320045
+=======
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1407771940}
+  - component: {fileID: 1407771942}
+  - component: {fileID: 1407771941}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1407771940
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_GameObject: {fileID: 1918320041}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2039,18 +2673,34 @@ RectTransform:
   - {fileID: 1517116609}
   m_Father: {fileID: 0}
   m_RootOrder: 3
+=======
+  m_GameObject: {fileID: 1407771939}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 527383652}
+  m_RootOrder: 0
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1918320046
+=======
+  m_SizeDelta: {x: -3.2444, y: -5.8435}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1407771941
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_GameObject: {fileID: 1918320041}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2059,6 +2709,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StatDisplay: {fileID: 1039313578}
 --- !u!1 &1984799459
+=======
+  m_GameObject: {fileID: 1407771939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.17723632, g: 1, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 12
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Character Creation
+--- !u!222 &1407771942
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407771939}
+  m_CullTransparentMesh: 1
+--- !u!1 &1655305130
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2086,6 +2775,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_Children: []
   m_Father: {fileID: 316647053}
   m_RootOrder: 1
@@ -2094,6 +2784,22 @@ RectTransform:
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -0.5}
   m_SizeDelta: {x: -20, y: -13}
+=======
+  m_Children:
+  - {fileID: 754043397}
+  - {fileID: 279752140}
+  - {fileID: 279791318}
+  - {fileID: 1994529615}
+  - {fileID: 527383652}
+  - {fileID: 791880378}
+  m_Father: {fileID: 1060457805}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 2560, y: 1440}
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1984799461
 MonoBehaviour:
@@ -2162,6 +2868,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
   m_GameObject: {fileID: 2071876780}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2176,6 +2883,21 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -773, y: 130}
   m_SizeDelta: {x: 409.6196, y: 82.9736}
+=======
+  m_GameObject: {fileID: 1994529614}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1204180135}
+  m_Father: {fileID: 1655305131}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -145.9, y: -157}
+  m_SizeDelta: {x: 471.0063, y: 69.193}
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2071876782
 MonoBehaviour:
@@ -2221,9 +2943,37 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
       - m_Target: {fileID: 1918320046}
+=======
+      - m_Target: {fileID: 1060457801}
+        m_TargetAssemblyTypeName: Testing, Assembly-CSharp
+        m_MethodName: FlushPlayerData
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1060457801}
         m_TargetAssemblyTypeName: Testing, Assembly-CSharp
         m_MethodName: WritePlayerData
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1060457801}
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
+        m_TargetAssemblyTypeName: Testing, Assembly-CSharp
+        m_MethodName: DisplayUserData
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2263,7 +3013,90 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+<<<<<<< Updated upstream:Assets/Scenes/Main.unity
 --- !u!222 &2071876784
+=======
+--- !u!222 &1994529618
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994529614}
+  m_CullTransparentMesh: 1
+--- !u!1 &2122571143
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2122571144}
+  - component: {fileID: 2122571146}
+  - component: {fileID: 2122571145}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2122571144
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122571143}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 279791318}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.8116455, y: 0}
+  m_SizeDelta: {x: -1.6211, y: -5.8435}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2122571145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122571143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.17723632, g: 1, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 12
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Load User Data
+--- !u!222 &2122571146
+>>>>>>> Stashed changes:Assets/Scenes/SaveSelectionScene.unity
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

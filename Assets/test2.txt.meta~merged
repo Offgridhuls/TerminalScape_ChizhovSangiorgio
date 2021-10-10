@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
+guid: 991121283cf211b4197ddb261b8644f5
+=======
 <<<<<<< Updated upstream:Assets/test1.txt.meta
 guid: 348e807192f006c47b390b8c2dc434e5
 =======
 guid: c55d7bc3055046944929c832ad757d3d
 >>>>>>> Stashed changes:Assets/test2.txt.meta
+>>>>>>> Stashed changes
 TextScriptImporter:
   externalObjects: {}
   userData: 

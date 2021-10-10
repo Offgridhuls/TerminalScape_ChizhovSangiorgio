@@ -1,5 +1,4 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/test2.txt.meta
 guid: 991121283cf211b4197ddb261b8644f5
 TextScriptImporter:
@@ -7,10 +6,6 @@ TextScriptImporter:
 guid: 6252d507e9a8b9f4faf5b21120ebdda9
 DefaultImporter:
 >>>>>>> Stashed changes:Assets/Scenes/CombatScene.unity.meta
-=======
-guid: c55d7bc3055046944929c832ad757d3d
-TextScriptImporter:
->>>>>>> Stashed changes
   externalObjects: {}
   userData: 
   assetBundleName: 
