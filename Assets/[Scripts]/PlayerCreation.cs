@@ -8,9 +8,14 @@ public class PlayerCreation : MonoBehaviour
 {
     [Header("Character Creation Defaults")]
     [SerializeField]
+<<<<<<< Updated upstream
     int[] statValues = new int[(int)PlayerStatType.STATCOUNT];
+=======
+    int[] newCharacterStats = new int[(int)PlayerStatType.STATCOUNT];
+
+>>>>>>> Stashed changes
     [SerializeField]
-    int[] statIncrements = new int[(int)PlayerStatType.STATCOUNT];
+    int[] baseCharacterStats = new int[(int)PlayerStatType.STATCOUNT];
 
     [SerializeField]
     int pointsAvailable = 0;
@@ -23,28 +28,27 @@ public class PlayerCreation : MonoBehaviour
     [SerializeField]
     Text AvailablePointsText;
 
-    List<int>[] modifiers = new List<int>[6];
-
     private void Start()
     {
-        for (int i = 0; i < (int)PlayerStatType.STATCOUNT; i++)
-        {
-            modifiers[i] = new List<int>();
-        }
-        if (PlayerStats._loaded) LoadFromPlayer();
-        else Debug.Log("Loading Editor Defaults");
+        if (GameStatics._fileLoaded) LoadFromPlayer();
+        else LoadDefaultCharacter();
         DisplayValues();
     }
 
     private void DisplayValues()
     {
-        for (int i = 0; i < (int)PlayerStatType.STATCOUNT; i++)
+        int i = 0;
+        foreach (Text text in StatDisplayText)
         {
+<<<<<<< Updated upstream
             int skillModifier = 0;
             foreach (int mod in modifiers[i]) { skillModifier += mod; }
             StatDisplayText[i].text = (statValues[i] + skillModifier).ToString();
+=======
+            text.text = $"{newCharacterStats[i++]}";
+>>>>>>> Stashed changes
         }
-        AvailablePointsText.text = pointsAvailable.ToString();
+        AvailablePointsText.text = $"{pointsAvailable}";
     }
 
     public void IncrementStat(int type)
@@ -53,7 +57,7 @@ public class PlayerCreation : MonoBehaviour
         {
             pointsAvailable--;
             pointsUsed++;
-            modifiers[type].Add(statIncrements[type]);
+            newCharacterStats[type] += GameStatics._statIncrementValues[type];
             DisplayValues();
         }
     }
@@ -62,42 +66,53 @@ public class PlayerCreation : MonoBehaviour
     {
         for (int i = 0; i < (int)PlayerStatType.STATCOUNT; i++)
         {
+<<<<<<< Updated upstream
             statValues[i] = PlayerStats._stats[i];
             foreach(int mod in PlayerStats._modifiers[i]) statValues[i] += mod;
+=======
+            baseCharacterStats[i] = newCharacterStats[i] = GameStatics._currentPlayerStats[i];
+>>>>>>> Stashed changes
         }
-        Debug.Log($"Loaded from {PlayerStats._fileName}");
+        pointsAvailable = GameStatics._playerUpgradePoints;
+        Debug.Log($"Loaded from {GameStatics._currentSaveFileName}");
     }
 
-    public void Save()
+    public void LoadDefaultCharacter()
     {
-        FlushPlayerModifiers();
-        int i = 0;
-        foreach(int skill in statValues)
+        for (int i = 0; i < (int)PlayerStatType.STATCOUNT; i++)
         {
-            foreach (int mod in modifiers[i]) PlayerStats._modifiers[i].Add(mod);
-            PlayerStats._stats[i++] = skill;
+            baseCharacterStats[i] = newCharacterStats[i] = GameStatics._currentPlayerStats[i] = GameStatics._statMinValues[i];
         }
+        pointsAvailable = GameStatics._playerUpgradePoints = 3;
+        Debug.Log("Default Character Loaded");
+    }
+
+    public void SaveToStatics()
+    {
+        for (int i = 0; i < (int)PlayerStatType.STATCOUNT; i++)
+        {
+            GameStatics._currentPlayerStats[i] = newCharacterStats[i];
+        }
+        GameStatics._playerUpgradePoints = pointsAvailable;
         Debug.Log("PlayerStats updated");
     }
+<<<<<<< Updated upstream
+=======
+
+    public void LoadScene(string scenename)
+    {
+        SceneManager.LoadScene(scenename);
+    }
+   
+>>>>>>> Stashed changes
     public void Revert()
     {
         pointsAvailable += pointsUsed;
         pointsUsed = 0;
-        for (int i = 0; i < modifiers.Length; i++)
-        {
-            modifiers[i].Clear();
-        }
-        DisplayValues();
-    }
-
-    private void FlushPlayerModifiers()
-    {
         for (int i = 0; i < (int)PlayerStatType.STATCOUNT; i++)
         {
-            if (PlayerStats._modifiers[i].Count > 0)
-            {
-                PlayerStats._modifiers[i].Clear();
-            }
+            newCharacterStats[i] = baseCharacterStats[i];
         }
+        DisplayValues();
     }
 }
